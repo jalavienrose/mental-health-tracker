@@ -20,7 +20,7 @@ class mainTest(TestCase):
         mood = MoodEntry.objects.create(
           mood="LUMAYAN SENANG",
           time = now,
-          feelings = "senang sih, cuman tadi baju aku basah kena hujan :((",
+          feelings = "senang sih, cuman tadi baju aku basah kena hujan :(",
           mood_intensity = 8,
         )
         self.assertTrue(mood.is_mood_strong)
